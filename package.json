@@ -5,10 +5,16 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "node server.js"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "bootstrap-icons": "^1.4.0",
+    "express": "^4.17.1",
+    "joi": "^17.4.0",
+    "mongoose": "^5.11.18",
     "next": "10.0.7",
+    "nextjs-progressbar": "0.0.7",
     "react": "17.0.1",
     "react-dom": "17.0.1"
   }

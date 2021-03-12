@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const Navbar = () => {
-  const user = false;
+  const user = true;
   return (
     <nav className="navbar navbar-expand-md ">
       <div className="d-flex container">
